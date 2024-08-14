@@ -28,8 +28,7 @@ function AverageCalc(student){
    const media = (student.note1 + student.note2) / 2
 
    if(media >= 7){
-    return `A média de ${student.name} é: ${media}.
-    Parabéns ${student.name}, você foi aprovado! `
+    return `A média de ${student.name} é: ${media}. Parabéns ${student.name}, você foi aprovado! `
    } else{
     return `A média de ${student.name} é: ${media}. Não foi dessa vez ${student.name}, você foi reprovado.`
    }
